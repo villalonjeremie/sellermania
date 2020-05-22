@@ -1,0 +1,33 @@
+farcry:
+    0 :
+        price: 21.10
+        vendor: abc jeux
+        state: etat moyen
+    1 :
+        price: 16.20
+        vendor: game-planete
+        state: etat moyen
+    2 :
+        price: 18
+        vendor: media-games
+        state: bon etat
+    3 :
+        price: 20
+        vendor: micro-jeux
+        state: bon etat
+    4 :
+        price: 21.50
+        vendor: top-jeux-video
+        state: etat moyen
+    5 :
+        price: 24.44
+        vendor: tous-les-jeux
+        state: bon etat
+    6 :
+        price: 29
+        vendor: diffusion-133
+        state: comme neuf
+    7 :
+        price: 30.99
+        vendor: france-video
+        state: comme neuf

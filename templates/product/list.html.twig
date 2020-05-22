@@ -1,0 +1,19 @@
+<table class="detailsTable">
+    <tr class="tableHeader">
+        <th class="priceProduct">Prix de Vente :</th>
+        <th class="vendorProduct">Vendeur concurrent :</th>
+        <th class="stateProduct">Etat du produit</th>
+    </tr>
+    {% for concurrent in listConcurrents %}
+        <tr class="tableBody">
+            <td class="firstCell">{{ concurrent.price }} Euros</td>
+            <td class="align-right">{{ concurrent.vendor }}</td>
+            <td class="align-right">{{ concurrent.state }}</td>
+        </tr>
+    {% endfor %}
+    <tr class="footer" style="color:red">
+        <td class="tdFooter">{{ product.price }} Euros</td>
+        <td class="tdFooter">{{ product.vendor }}</td>
+        <td class="tdFooter">{{ product.state }}</td>
+    </tr>
+</table>

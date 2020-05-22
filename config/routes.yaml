@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+list:
+    path:     /list/{slug}
+    controller: App\Controller\ProductController::list

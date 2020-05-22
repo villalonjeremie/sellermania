@@ -1,0 +1,34 @@
+0 :
+    name: farcry
+    price: 21.10
+    limitprice: 10.10
+    state: etat moyen
+    expected: 16.19
+
+1 :
+    name: farcry
+    price: 40.10
+    limitprice: 30.10
+    state: etat moyen
+    expected: 30.10
+
+2 :
+    name: farcry
+    price: 16
+    limitprice: 8
+    state: bon etat
+    expected: 17.99
+
+3 :
+    name: farcry
+    price: 20
+    limitprice: 10
+    state: tres bon etat
+    expected: 28
+
+4 :
+    name: farcry
+    price: 40
+    limitprice: 10
+    state: comme neuf
+    expected: 28.99
